@@ -14,11 +14,23 @@ struct SectionGridItemView: View {
     
     var body: some View {
         Text(section.name)
+            .foregroundColor(.accentColor)
+            .frame(maxWidth: .infinity,minHeight: 100, alignment: .center)
+            .overlay(
+                RoundedRectangle(cornerRadius: 15)
+                    .stroke(Color.accentColor)
+            )
     }
 }
 
 struct SectionGridItemView_Previews: PreviewProvider {
     static var previews: some View {
-        SectionsView()
+        Group {
+            SectionsView()
+                .preferredColorScheme(.light)
+            SectionsView()
+                .preferredColorScheme(.dark)
+
+        }
     }
 }
