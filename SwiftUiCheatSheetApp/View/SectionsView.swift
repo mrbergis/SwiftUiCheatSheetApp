@@ -24,6 +24,7 @@ struct SectionsView: View {
                                 SectionListItemView(section: section)
                             }
                         } //: LOOP
+                        .listRowBackground(Color.clear)
                     } //: LIST
                 } else {
                     ScrollView(.vertical, showsIndicators: false) {
