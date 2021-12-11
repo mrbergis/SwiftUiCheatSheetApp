@@ -23,8 +23,8 @@ struct SectionsView: View {
                             } label: {
                                 SectionListItemView(section: section)
                             }
-                        }
-                    }
+                        } //: LOOP
+                    } //: LIST
                 } else {
                     ScrollView(.vertical, showsIndicators: false) {
                         LazyVGrid(columns: sectionsVM.gridLayout, alignment: .center, spacing: 10) {

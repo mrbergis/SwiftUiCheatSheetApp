@@ -2,29 +2,36 @@
   {
     "id" : "xcod",
     "name" : "Xcode 13",
+    "headline" : "Xcode — интегрированная среда разработки (IDE) программного обеспечения для платформ macOS, iOS, watchOS и tvOS, разработанная корпорацией Apple. Первая версия выпущена в 2003 году. Стабильные версии распространяются бесплатно через Mac App Store. Зарегистрированные разработчики также имеют доступ к бета-сборкам через сайт Apple Developer."
   },
   {
     "id" : "view",
     "name" : "View",
+    "headline" : "Тип, который представляет собой часть пользовательского интерфейса вашего приложения и предоставляет модификаторы, которые вы используете для настройки представлений."
   },
   {
     "id" : "animation",
     "name" : "Animation",
+    "headline" : "When using SwiftUI, you can individually animate changes to views, or to a view’s state, no matter where the effects are. SwiftUI handles all the complexity of these combined, overlapping, and interruptible animations for you."
   },
   {
     "id" : "interaction",
     "name" : "User Interaction / User input",
+    "headline" : ""
   },
   {
     "id" : "device",
     "name" : "Device specific",
+    "headline" : ""
   },
   {
     "id" : "dataflow",
     "name" : "Data flow",
+    "headline" : ""
   },
   {
     "id" : "mvvm",
     "name" : "MVVM",
+    "headline" : "Model-View-ViewModel (MVVM) — шаблон проектирования архитектуры приложения. Представлен в 2005 году Джоном Госсманом (John Gossman) как модификация шаблона Presentation Model. Ориентирован на современные платформы разработки, такие как Windows Presentation Foundation, Silverlight от компании Microsoft, ZK framework."
   }
 ]
