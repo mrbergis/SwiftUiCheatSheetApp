@@ -1,0 +1,30 @@
+[
+  {
+    "id" : "xcod",
+    "name" : "Xcode 13",
+  },
+  {
+    "id" : "view",
+    "name" : "View",
+  },
+  {
+    "id" : "animation",
+    "name" : "Animation",
+  },
+  {
+    "id" : "interaction",
+    "name" : "User Interaction / User input",
+  },
+  {
+    "id" : "device",
+    "name" : "Device specific",
+  },
+  {
+    "id" : "dataflow",
+    "name" : "Data flow",
+  },
+  {
+    "id" : "mvvm",
+    "name" : "MVVM",
+  }
+]
