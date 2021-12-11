@@ -21,7 +21,6 @@ final class SectionsViewModel: ObservableObject {
     func gridSwitch() {
         gridLayout = Array(repeating: .init(.flexible()), count: gridLayout.count % 3 + 1)
         gridColumn = gridLayout.count
-        print("Grid Number: \(gridColumn)")
         
         // TOOLBAR IMAGE
         switch gridColumn {

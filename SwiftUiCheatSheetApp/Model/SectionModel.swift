@@ -8,7 +8,8 @@
 import Foundation
 
 struct Section: Codable, Identifiable {
-    let id: String
+    let id: Int
     let name: String
     let headline: String
+    let section: String
 }

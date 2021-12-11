@@ -23,6 +23,7 @@ struct SectionsView: View {
                             } label: {
                                 SectionListItemView(section: section)
                             }
+                
                         } //: LOOP
                         .listRowBackground(Color.clear)
                     } //: LIST
