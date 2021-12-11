@@ -16,8 +16,10 @@
 		819FCFB327641BD40074D594 /* SectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819FCFB227641BD40074D594 /* SectionModel.swift */; };
 		819FCFB5276423070074D594 /* SectionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819FCFB4276423070074D594 /* SectionDetailView.swift */; };
 		819FCFB72764237C0074D594 /* SectionListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819FCFB62764237C0074D594 /* SectionListItemView.swift */; };
-		819FCFB9276423DE0074D594 /* SectionGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819FCFB8276423DE0074D594 /* SectionGridItemView.swift */; };
 		819FCFBB276428D50074D594 /* SectionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819FCFBA276428D50074D594 /* SectionsViewModel.swift */; };
+		819FCFC127646E3A0074D594 /* xcod.json in Resources */ = {isa = PBXBuildFile; fileRef = 819FCFC027646E3A0074D594 /* xcod.json */; };
+		819FCFC32764887B0074D594 /* view.json in Resources */ = {isa = PBXBuildFile; fileRef = 819FCFC22764887B0074D594 /* view.json */; };
+		819FCFC527648A9C0074D594 /* animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 819FCFC427648A9C0074D594 /* animation.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,8 +33,10 @@
 		819FCFB227641BD40074D594 /* SectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionModel.swift; sourceTree = "<group>"; };
 		819FCFB4276423070074D594 /* SectionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionDetailView.swift; sourceTree = "<group>"; };
 		819FCFB62764237C0074D594 /* SectionListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionListItemView.swift; sourceTree = "<group>"; };
-		819FCFB8276423DE0074D594 /* SectionGridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionGridItemView.swift; sourceTree = "<group>"; };
 		819FCFBA276428D50074D594 /* SectionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionsViewModel.swift; sourceTree = "<group>"; };
+		819FCFC027646E3A0074D594 /* xcod.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = xcod.json; sourceTree = "<group>"; };
+		819FCFC22764887B0074D594 /* view.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = view.json; sourceTree = "<group>"; };
+		819FCFC427648A9C0074D594 /* animation.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = animation.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +95,6 @@
 				819FCF9D2764169B0074D594 /* SectionsView.swift */,
 				819FCFB4276423070074D594 /* SectionDetailView.swift */,
 				819FCFB62764237C0074D594 /* SectionListItemView.swift */,
-				819FCFB8276423DE0074D594 /* SectionGridItemView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -116,6 +119,9 @@
 			isa = PBXGroup;
 			children = (
 				819FCFAD2764182E0074D594 /* sections.json */,
+				819FCFC027646E3A0074D594 /* xcod.json */,
+				819FCFC22764887B0074D594 /* view.json */,
+				819FCFC427648A9C0074D594 /* animation.json */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -187,8 +193,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				819FCFA32764169D0074D594 /* Preview Assets.xcassets in Resources */,
+				819FCFC32764887B0074D594 /* view.json in Resources */,
 				819FCFAE2764182E0074D594 /* sections.json in Resources */,
 				819FCFA02764169D0074D594 /* Assets.xcassets in Resources */,
+				819FCFC527648A9C0074D594 /* animation.json in Resources */,
+				819FCFC127646E3A0074D594 /* xcod.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,7 +210,6 @@
 			files = (
 				819FCF9E2764169B0074D594 /* SectionsView.swift in Sources */,
 				819FCF9C2764169B0074D594 /* SwiftUiCheatSheetAppApp.swift in Sources */,
-				819FCFB9276423DE0074D594 /* SectionGridItemView.swift in Sources */,
 				819FCFB5276423070074D594 /* SectionDetailView.swift in Sources */,
 				819FCFB127641B780074D594 /* CodableBundleExtension.swift in Sources */,
 				819FCFB327641BD40074D594 /* SectionModel.swift in Sources */,

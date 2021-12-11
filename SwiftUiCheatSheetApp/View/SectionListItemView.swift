@@ -13,7 +13,7 @@ struct SectionListItemView: View {
     
     var body: some View {
         HStack(alignment: .center, spacing: 16)  {
-            Text(section.name.prefix(1))
+            Text(section.name.prefix(1).uppercased())
                 .font(.title2)
                 .fontWeight(.bold)
                 .frame(width: 80, height: 80, alignment: .center)

@@ -9,12 +9,21 @@ import SwiftUI
 
 struct SectionDetailView: View {
     // MARK: - PROPERTIES
+    @Environment(\.presentationMode) var presentationMode
     
     let section: Section
     
     // MARK: - BODY
     var body: some View {
         Text(section.name)
+            .edgesIgnoringSafeArea(.top)
+            .navigationBarBackButtonHidden(true)
+            .navigationBarItems(leading:
+                Button(action: {
+                self.presentationMode.wrappedValue.dismiss()
+                }, label: {
+                    Image(systemName: "chevron.left.circle.fill")
+            }) )
     }
 }
 

@@ -3,48 +3,56 @@
     "id" : 1,
     "name" : "Xcode 13",
     "headline" : "Xcode — интегрированная среда разработки (IDE) программного обеспечения для платформ macOS, iOS, watchOS и tvOS, разработанная корпорацией Apple. Первая версия выпущена в 2003 году. Стабильные версии распространяются бесплатно через Mac App Store. Зарегистрированные разработчики также имеют доступ к бета-сборкам через сайт Apple Developer.",
-    "section" : "xcod.json"
+    "section" : "xcod.json",
+    "title" : ""
   },
   {
     "id" : 2,
     "name" : "View",
     "headline" : "Тип, который представляет собой часть пользовательского интерфейса вашего приложения и предоставляет модификаторы, которые вы используете для настройки представлений.",
-    "section" : ""
+    "section" : "view.json",
+    "title" : ""
   },
   {
     "id" : 3,
     "name" : "Animation",
     "headline" : "When using SwiftUI, you can individually animate changes to views, or to a view’s state, no matter where the effects are. SwiftUI handles all the complexity of these combined, overlapping, and interruptible animations for you.",
-    "section" : ""
+    "section" : "animation.json",
+    "title" : ""
   },
   {
     "id" : 4,
     "name" : "User Interaction / User input",
     "headline" : "",
-    "section" : ""
+    "section" : "",
+    "title" : ""
   },
   {
     "id" : 5,
     "name" : "Device specific",
     "headline" : "",
-    "section" : ""
+    "section" : "",
+    "title" : ""
   },
   {
     "id" : 6,
     "name" : "Data flow",
     "headline" : "",
-    "section" : ""
+    "section" : "",
+    "title" : ""
   },
   {
     "id" : 7,
     "name" : "MVVM",
     "headline" : "Model-View-ViewModel (MVVM) — шаблон проектирования архитектуры приложения. Представлен в 2005 году Джоном Госсманом (John Gossman) как модификация шаблона Presentation Model. Ориентирован на современные платформы разработки, такие как Windows Presentation Foundation, Silverlight от компании Microsoft, ZK framework.",
-    "section" : ""
+    "section" : "",
+    "title" : ""
   },
   {
     "id" : 8,
     "name" : "Integration with UIKit",
     "headline" : "",
-    "section" : ""
+    "section" : "",
+    "title" : ""
   }
 ]

@@ -12,4 +12,5 @@ struct Section: Codable, Identifiable {
     let name: String
     let headline: String
     let section: String
+    let title: String
 }

@@ -17,45 +17,41 @@ struct SectionsView: View {
             List {
                 ForEach(sectionsVM.sections) { section in
                     NavigationLink {
-                        SectionDetailView(section: section)
+                        //if section.section.isEmpty {
+                            SectionDetailView(section: section)
+                       // }
                     } label: {
-                        SectionListItemView(section: section)
+                        if section.section != "" {
+                            SectionListItemView(section: section)
+                                .onTapGesture {
+                                    sectionsVM.changeSection(section: section.section)
+                                }
+                        } else {
+                            SectionListItemView(section: section)
+                        }
+
                     }
+                   
                 } //: LOOP
                 .listRowBackground(Color.clear)
             } //: LIST
             .navigationTitle("SwiftUI")
-        }
-        .toolbar{
-            ToolbarItem(placement: .navigationBarTrailing) {
-                HStack(spacing: 16) {
-                    // LIST
+            .edgesIgnoringSafeArea(.top)
+            .toolbar{
+                ToolbarItem(placement: .navigationBarLeading) {
                     Button(action: {
-                        print("List view is activated")
-                        sectionsVM.isGridViewActive = false // ???: Так можно в MVVM?
-                    }) {
-                        Image(systemName: "square.fill.text.grid.1x2")
-                            .font(.title2)
-                            .foregroundColor(sectionsVM.isGridViewActive ? .primary : .accentColor)
-                    }
-                    // GRID
-                    Button(action: {
-                        print("Grid view is activated")
-                        // LINK:
-                        sectionsVM.isGridViewActive = true // ???: Так можно в MVVM?
-                        sectionsVM.gridSwitch()
-                    }) {
-                        Image(systemName: sectionsVM.toolbarIcon)
-                            .font(.title2)
-                            .foregroundColor(sectionsVM.isGridViewActive ? .accentColor : .primary)
-                    }
-                } //: HSTACK
-            } //: BUTTONS
-        } //: TOOLBAR
-    } //: NAVIGATION
+                        sectionsVM.removeTranslition()
+                    }, label: {
+                        Image(systemName: "chevron.left.circle.fill")
+                    }).opacity(sectionsVM.translitions.isEmpty ? 0 : 1)
+                }
+            }
+
+        }//: NAVIGATION
+    }
 }
 
-//: MARK: - FUNCTIONS
+//: MARK: - PREVIEWS
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
